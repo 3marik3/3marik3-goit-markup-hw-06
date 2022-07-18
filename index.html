@@ -324,8 +324,26 @@
                 </a></li>
             </ul>
         </div>
+        <div class="footer-mailing">
+            <form name="mailing form">
+                <div class="footer-mailing-list">
+                    <div>
+                        <p>Подпишитесь на рассылку</p>
+                        <label class="footer-mailing-text">
+                            <input class="footer-mailing-input" type="email" name="email" placeholder="E-mail">
+                        </label>
+                    </div>
+                    <button class="footer-mailing-button">Подписаться
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
         </div>
     </footer>
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="btn-modal" data-modal-close>
@@ -335,7 +353,7 @@
             </button>
         </div>
     </div>
-    <!-- Модальне вікно -->
+    <!-- Script -->
     <script src="./js/modal.js"></script>
 </body>
 </html>

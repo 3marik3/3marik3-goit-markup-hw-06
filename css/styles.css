@@ -499,7 +499,12 @@ margin-top: 0;
         padding-top: 60px;
         padding-bottom: 60px;
 }
-
+.footer-mailing {
+        margin-left: 93px;
+}
+.footer-mailing-list {
+        display: flex;
+}
 /* Portfolio */
 .btn-li {
         font-weight: 500;
